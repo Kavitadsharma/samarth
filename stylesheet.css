@@ -1,0 +1,70 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            width: 50%;
+            margin:auto
+        }
+
+        #header {
+            display: table;
+            width: 100%;
+            background-color: #fff;
+        }
+
+        #header > div {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        #header > div:first-child {
+            text-align: left;
+            padding-left: 10px; /* Adjust as needed */
+        }
+
+        #header > div:last-child {
+            text-align: right;
+            padding-right: 10px; /* Adjust as needed */
+        }
+
+        #second {
+            display: table;
+            width: 100%;
+        }
+
+        #second > div {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        #sone {
+            text-align: left;
+            padding-left: 10px; /* Adjust as needed */
+        }
+
+        #stwo {
+            text-align: right;
+            padding-right: 10px; /* Adjust as needed */
+        }
+
+        table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+td{
+    border: 2px solid ;  
+}
+
+th{
+  border: 2px solid ;
+color:white;
+  text-align: left;
+}
+
+th {
+  background-color: blue;
+}
+
+        p {
+            margin-top: 20px;
+        }
